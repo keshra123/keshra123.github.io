@@ -30,8 +30,8 @@
   margin-left: 200px; /* Same as the width of the sidenav */
 }
 
-.p {
-  
+p {
+  line-height: 0.8;
 }
 
 h1,h2,h3,h4,h5,h6 {
