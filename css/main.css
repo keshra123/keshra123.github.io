@@ -29,15 +29,13 @@
 .main {
   margin-left: 200px; /* Same as the width of the sidenav */
 }
-
 p {
-  line-height: 0.8;
+  margin: 0; 
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-size: 25px;
-  color: #000000
-  line-height: 0.8;  
+  color: #000000  
 }
 
 /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
