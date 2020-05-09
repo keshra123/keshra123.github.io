@@ -40,19 +40,21 @@ h2 {
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 0%;
+  top: 50%;
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
   color: #000000;
   font size: 5em;
   font-family: sans-serif;
-  letter spacing: 0.2em;  
+  letter spacing: 0.2em;
+  opacity: 0;
 }
 
 h2 span {
  display: inline-block; 
-  animation: animate 5s linear;
+  animation: animate 5s linear forwards;
+  opacity: 0;
 }
 
 @keyframes animate 
