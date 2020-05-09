@@ -30,10 +30,41 @@
   margin-left: 200px; /* Same as the width of the sidenav */
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h3,h4,h5,h6 {
   font-size: 25px;
   margin: 0;
   color: #000000  
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: #ddd;
+  font size: 5em;
+  font-family: sans-serif
+  letter spacing: 0.2em;  
+}
+
+h2 span {
+ display: inline-block; 
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate 
+{
+  0%
+  {
+    opacity: 0;
+  }
+  100%
+  {
+    opacity:1;
+  }
 }
 
 /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
