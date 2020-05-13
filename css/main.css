@@ -74,12 +74,3 @@ h2 span {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
-
-body {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  background: black;
-  overflow: hidden;
-}
-
