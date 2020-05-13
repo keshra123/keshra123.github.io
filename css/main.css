@@ -57,6 +57,12 @@ h2 span {
   opacity: 0;
 }
 
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 @keyframes animate 
 {
   0%
