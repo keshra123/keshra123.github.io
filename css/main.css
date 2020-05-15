@@ -36,6 +36,12 @@ h1, h2, h3,h4,h5,h6,h7 {
   color: #000000;  
 }
 
+h11 {
+  font-size: 35px;
+  margin: 0;
+  color: #000000;
+}
+
 .sidebar h10
 {
  padding: 6px 8px 6px 16px;
