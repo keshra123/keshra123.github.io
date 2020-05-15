@@ -49,8 +49,15 @@ h11 {
   font-family: Cursive;
   font-size: 30px;
   margin: 0;
-  color: #005050;
+  color: #000000;
   margin-left: 200px; 
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 ol {
