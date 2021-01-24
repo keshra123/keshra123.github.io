@@ -1,104 +1,127 @@
-/* Style the sidebar - fixed full height */
-.sidebar {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #FF7F50;
-  overflow-x: hidden;
-  padding-top: 16px;
-}
-
-/* Style sidebar links */
-.sidebar a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #FFFFFF;
-  display: block;
-}
-
-/* Style links on mouse-over */
-.sidebar a:hover {
-  color: #FFD700;
-}
-
-/* Style the main content */
-.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-}
-
-h1, h2, h3,h4,h5,h6,h7 {
-  font-size: 25px;
-  margin: 0;
-  color: #000000;  
-}
-
-h11 {
-  font-size: 35px;
-  margin: 0;
-  color: #000000;
-}
-
-.sidebar h10
-{
- padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #FFFFFF;
-  display: block;
+html{
+	scroll-behavior: smooth;
 }
 
 
-ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+body {
+	background: #FFFF;
+			
+			font-size: 25px;
+			font-family: Roboto, arial;
+			margin: 0;
+}
+nav{
+	opacity: .5;
+}
+nav:hover{
+	opacity: 1;
 }
 
-@keyframes animate 
-{
-  0%
-  {
-    opacity: 0;
-  }
-  100%
-  {
-    opacity:1;
-  }
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+.included:hover {
+	color: #B6B6B4;
+}
+nav ul li a:hover {
+	color: #B6B6B4;
+}
+.special:hover{
+	color: #B6B6B4;
+}
+.no {
+	color: #438D80;
+	background: #7BCCB5;
+	padding: 1px 1px 1px 1px;
+}
+p {
+	color: #000000;
+}
+header h1 {
+	color: #FFFFFF;
+	background: #438D80;
+	margin: 0;
+	display: inline;
+	text-align: center;
+	padding: 10px 5px 10px 5px;
+
+}
+nav ul {
+	margin: 0;
+	display: inline;
+}
+header {
+	color: #438D80;
+	background: #7BCCB5;
+	background-image: url("Website Images/Doges.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 400px;
+	padding: 100px 10px 100px 10px;
+
+}
+nav ul li, .special{
+	list-style-type: none;
+	display: inline;
+	background: #438D80;
+	color: #FFFF;
+	padding: 5px 5px;
+	margin: 1;
+text-decoration: none;
+}
+footer {
+	font-size: 15px;
+	text-align: right;
 }
 
-/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+.logo{
+	float: right;
+	padding-right: 20px;
 }
-
-.bluebag {
-    opacity: 0; 
-    background: blue;
-    height: 100px;
-    width: 100px; 
-    animation: opacityOn 5s normal forwards;
-    animation-delay: 2s;
+.petto{
+	color: #438D80;
+	background: #7BCCB5;
+	background-image: url("Website Images/Cat.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	height: 400px;
+	padding: 90px 30px 90px 30px;
+	
 }
-
-@keyframes opacityOn {
-    0% {
-        opacity: 1;
-    }
-    25% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    75% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.special, .included{
+	padding-left: 0
+	margin: -300; 
+}
+.stop{
+	display:inline;
+	list-style-type:none; 
+	color: #438D80;
+}
+.trainer {
+	background: #7BCCB5;
+	background-image: url("Website Images/Service Pitty.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	height: 400px
+	padding: 90px 30px 90px 30px;
+}
+.mapo {
+	background: #7BCCB5;
+	background-image: url("Website Images/Cars.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	height: 400px
+	padding: 90px 30px 90px 30px;
+}
+.warning{
+	font-size: 15px;
+}
+.signers{
+	background: #7BCCB5;
+	background-image: url("Website Images/Triplets.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	height: 400px
+	padding: 90px 30px 90px 30px;
 }
