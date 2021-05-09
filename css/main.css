@@ -12,6 +12,6 @@ li {
 
 li a {
   display: block;
-  padding: 8px;
+  padding: 8px 8px;
   background-color: black;
 }
