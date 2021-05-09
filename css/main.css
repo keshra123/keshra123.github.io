@@ -11,9 +11,7 @@ li {
 }
 
 li a {
- display: block;
-  color: white;
-  text-align: center;
+  display: block;
   padding: 8px;
-  text-decoration: none;
+  background-color: black;
 }
