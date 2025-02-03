@@ -4,10 +4,10 @@
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div id="content">
+<div id="content" style="display:none">
 <h1>Hello World</h1>
 </div>
-<div class="wrapper" style="display:none">
+<div class="wrapper">
     <div class="circle"></div>
     <div class="circle"></div>
     <div class="circle"></div>
@@ -16,11 +16,14 @@
     <div class="shadow"></div>
 </div>
     
-$(function(){
-   setTimeout(function(){
-     $('#content').show();
-   },5000);
-});
+<script>
 
+    setTimeout(function() {
+
+        document.getElementById("content").style.display = "block"; 
+
+    }, 5000); 
+
+</script>
 </body>
 </html>
